@@ -4,18 +4,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bank Advance</title>
+    <title>Advanced Bank</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body>
+    <header>
+        <h2 class="lg:text-6xl text-3xl font-bold text-center mt-10">Functional <span
+                class="text-red-600 font-bold ">Advanced
+                Bank</span>
+        </h2>
+    </header>
 
+    <main>
+        <section class="mt-8">
+            <div class="grid lg:grid-cols-3 gap-4 w-3/4 mx-auto">
+                <div class="bg-yellow-600 p-8 rounded-xl text-white">
+                    <h4 class="text-3xl mb-5">Deposit</h4>
+                    <h2 class="text-5xl font-bold">$ <span id="deposit-total">00</span>
+                    </h2>
+                </div>
+                <div class="bg-blue-600 p-8 rounded-xl text-white">
+                    <h4 class="text-3xl mb-5">Withdraw</h4>
+                    <h2 class="text-5xl font-bold">$ <span id="deposit-total">00</span>
+                    </h2>
+                </div>
+                <div class="bg-purple-600 p-8 rounded-xl text-white">
+                    <h4 class="text-3xl mb-5">Balance</h4>
+                    <h2 class="text-5xl font-bold">$ <span id="deposit-total">00</span>
+                    </h2>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 
 </html>
-
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/devmashum/Bank-advance.git
-git push -u origin main
